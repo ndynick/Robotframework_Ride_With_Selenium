@@ -1,0 +1,7 @@
+To install selenium library using github:
+https://github.com/robotframework/SeleniumLibrary/
+
+To Install selenium for Test Case Using Chrome Browser:
+https://www.selenium.dev/ (obselete)
+https://chromedriver.chromium.org/downloads/version-selection
+https://googlechromelabs.github.io/chrome-for-testing/#stable (use this and select Stable -> chromedriver win64)

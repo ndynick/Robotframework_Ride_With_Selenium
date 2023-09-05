@@ -1,0 +1,33 @@
+note: download pip for python 2.7
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
+
+note: need download higher python version (3.11) to have come with pip. To use pip to install robotframework-ride.
+C:\Users\User\AppData\Local\Programs\Python\Python311\Scripts>pip install robotframework-ride
+
+Install robotframework:
+C:\Users\User\AppData\Local\Programs\Python\Python311\Scripts>pip install robotframework
+
+robot --version
+
+C:\Python27>cd C:\Python27\Tools\Scripts
+
+C:\Python27\Tools\Scripts>python ride.py
+Creating librarykeywords database to "C:\Users\User\AppData\Roaming\RobotFramework\ride\librarykeywords.db"
+<urlopen error [Errno 11002] getaddrinfo failed>
+
+C:\Python27\Tools\Scripts>
+
+--
+note: use this command to check version
+C:\WINDOWS\system32>python --version
+Python 3.11.4
+
+C:\WINDOWS\system32>robot --version
+Robot Framework 6.1.1 (Python 3.11.4 on win32)
+
+C:\WINDOWS\system32>chromedriver --version
+ChromeDriver 115.0.5790.102 (90efd4b0ad6aa15eeafcdabd5817ae939f7ba059-refs/branch-heads/5790_90@{#9})
+
+-----
+note: install using this command: pip install selenium==4.9.1 to fix error "TypeError: WebDriver.__init__() got an unexpected keyword argument 'service_log_path'"
+

@@ -1,0 +1,23 @@
+command: robot -A C:\Users\User\AppData\Local\Temp\RIDEr_bmy5ph.d\argfile.txt --listener C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\robotide\contrib\testrunner\TestRunnerAgent.py:58561:False C:\robotframework\WritingTestCases
+TestRunnerAgent: Running under CPython 3.11.4
+
+==========================================================================================================
+WritingTestCases                                                                                          
+==========================================================================================================
+WritingTestCases.Test Suite 1                                                                             
+==========================================================================================================
+TC1                                                                                               | PASS |
+----------------------------------------------------------------------------------------------------------
+TC2                                                                                               | PASS |
+----------------------------------------------------------------------------------------------------------
+WritingTestCases.Test Suite 1                                                                     | PASS |
+2 tests, 2 passed, 0 failed
+==========================================================================================================
+WritingTestCases                                                                                  | PASS |
+2 tests, 2 passed, 0 failed
+==========================================================================================================
+Output:  C:\Users\User\AppData\Local\Temp\RIDEr_bmy5ph.d\output.xml
+Log:     C:\Users\User\AppData\Local\Temp\RIDEr_bmy5ph.d\log.html
+Report:  C:\Users\User\AppData\Local\Temp\RIDEr_bmy5ph.d\report.html
+
+Test finished 20230804 09:19:55

@@ -1,0 +1,11 @@
+
+Starting test: WritingTestCases.Test Suite 1.TC1
+20230804 09:13:56.471 :  INFO : Opening browser 'firefox' to base url 'https://www.tutorialspoint.com/'.
+Ending test: WritingTestCases.Test Suite 1.TC1
+
+Starting test: WritingTestCases.Test Suite 1.TC2
+20230804 09:15:18.529 :  INFO : ${a} = Hi
+20230804 09:15:18.529 :  INFO : Hi
+20230804 09:15:18.529 :  INFO : ${b} = Yes
+20230804 09:15:18.529 :  INFO : Yes
+Ending test: WritingTestCases.Test Suite 1.TC2

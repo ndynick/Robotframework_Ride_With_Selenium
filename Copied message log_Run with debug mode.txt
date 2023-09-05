@@ -1,0 +1,43 @@
+
+Starting test: WritingTestCases.Test Suite 1.TC1
+20230804 09:18:10.829 :  INFO : Opening browser 'firefox' to base url 'https://www.tutorialspoint.com/'.
+20230804 09:18:11.034 : DEBUG : Started executable: `C:\usr\local\bin\geckodriver.EXE` in a child process with pid: 8780
+20230804 09:18:12.085 : DEBUG : POST http://localhost:64087/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal", "moz:firefoxOptions": {"profile": "UEsDBBQAAAAIAEZKBFeooscaewMAANkMAAAHAAAAdXNlci5qc6VWTW/UMBC9I/EfUE8gsVYL9AKn0hYJqaKoq4qj5diTjbuObezxpvvvGScbutomm1Bu+XjPY7+ZeeMUIXAfoHx7UgTX0BtTrmaNtso1TKXaM7CiMKBO3r/BkODdl9ev0nOSEQghJLuHLoWJY3ALDYqCpWAIeCIKl/BzYYRdnxwleLGCmREiioDJs0wh6OkErHI17KBztnNI425Dx9cKWB3R2XYZvbIuwNgK9End2l+tzvHslGmLwd3f3UxsICenFo9cVoFC8yiD9shJeI66zmE/Hp60Z8yEBvAuIBfG8IfI4VGCR+1sHE7/g9iIbmHmOhyLlWu+20t6dAaGWRawcWHNpCDOBhY5ojALAmy0nEpwBJmCxi2Tsa/NMeRhkhowMqs2XXbHqEwopfNZxdQqDRQq0AEDFzLryBMlOUUExSUEHNF0jxVjyjH/sjR9gDBME96z5BX1IRMJ3Ygme6h5faR09EZsQV2fnS5/OKQEEePTGNo11jihqOIsyRbaavhVgV1mQbVdTUS7vr+5YH0vHXecFvqRdcpO2pO2a6pQsFTRZFRd6j5Mgsl1Oic8gnZlSYSxGuxRAYTK+gCCpN1+0yHiBSkix3rkr9OIEtpnEm+u9e1TamEaEWa7Joggq12FTGJNGZPPzdsb+ahdQozZHJAMkaRoq7okA+MyiFhNxanAGCYrkOsrKEUy+LX7M8GjeREZnd3e2kvj4tRx9uC3lPsRNOkiOovM4lYgDFbdO5tnX0cWSD63zvVL6X38MtfWXXrBCYxbrfJH2Zn3v+zEO6PlluWPy1TUus33fy/ws/148dTig+vABp0zkZFruLDb+/FbSx50ZGwZwdtGVzRS7Ipn/UeiZN+wbRG39nrVsZeS6NnHzw5n6R6+ME6ujY44URp7lLbaL13tBepCmzzurF5VaLbT3Fn2/hxvydvL7f14X+3N+qPi9tO9GwGLnT8uaKRiiiNr95wKka5slY7VdpF/exqBCwN2hdklPpyfH/D6xWmsUV6McQ0vtlx1NjG8PU++4zHmfue1U8LMvW+U2gA9MRc0dQnvCjZfo6YIEYOWyA95g8HypdGSRdZQFxCW7euYaLnq1xrZTrx+5O4Ke/j0PQfBUAwMW9bp0R7/cMQ9Bx+X6jk+wEM774Y38+g1zQRKG8vnpvKg0UCU30mH0RhPnKbSFCi31RDlD1BLAQIUABQAAAAIAEZKBFeooscaewMAANkMAAAHAAAAAAAAAAAAAAC2gQAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAKADAAAAAA=="}}}}
+20230804 09:18:12.085 : DEBUG : Starting new HTTP connection (1): localhost:64087
+20230804 09:18:21.906 : DEBUG : http://localhost:64087 "POST /session HTTP/1.1" 200 0
+20230804 09:18:21.906 : DEBUG : Remote response: status=200 | data={"value":{"sessionId":"2e719eb7-aa71-47ea-857f-1ff671c14683","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"116.0","moz:accessibilityChecks":false,"moz:buildID":"20230727152340","moz:debuggerAddress":"127.0.0.1:64088","moz:geckodriverVersion":"0.33.0","moz:headless":false,"moz:platformVersion":"10.0","moz:processID":4260,"moz:profile":"C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile69DvtK","moz:shutdownTimeout":60000,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '742', 'date': 'Fri, 04 Aug 2023 01:18:14 GMT'})
+20230804 09:18:21.906 : DEBUG : Finished Request
+20230804 09:18:21.906 : DEBUG : POST http://localhost:64087/session/2e719eb7-aa71-47ea-857f-1ff671c14683/timeouts {"script": 5000}
+20230804 09:18:21.944 : DEBUG : http://localhost:64087 "POST /session/2e719eb7-aa71-47ea-857f-1ff671c14683/timeouts HTTP/1.1" 200 0
+20230804 09:18:21.946 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 04 Aug 2023 01:18:21 GMT'})
+20230804 09:18:21.946 : DEBUG : Finished Request
+20230804 09:18:21.947 : DEBUG : POST http://localhost:64087/session/2e719eb7-aa71-47ea-857f-1ff671c14683/timeouts {"implicit": 0}
+20230804 09:18:21.947 : DEBUG : http://localhost:64087 "POST /session/2e719eb7-aa71-47ea-857f-1ff671c14683/timeouts HTTP/1.1" 200 0
+20230804 09:18:21.947 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 04 Aug 2023 01:18:21 GMT'})
+20230804 09:18:21.947 : DEBUG : Finished Request
+20230804 09:18:21.947 : DEBUG : POST http://localhost:64087/session/2e719eb7-aa71-47ea-857f-1ff671c14683/timeouts {"pageLoad": 300000}
+20230804 09:18:21.963 : DEBUG : http://localhost:64087 "POST /session/2e719eb7-aa71-47ea-857f-1ff671c14683/timeouts HTTP/1.1" 200 0
+20230804 09:18:21.963 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 04 Aug 2023 01:18:21 GMT'})
+20230804 09:18:21.963 : DEBUG : Finished Request
+20230804 09:18:21.963 : DEBUG : POST http://localhost:64087/session/2e719eb7-aa71-47ea-857f-1ff671c14683/url {"url": "https://www.tutorialspoint.com/"}
+20230804 09:19:38.821 : DEBUG : http://localhost:64087 "POST /session/2e719eb7-aa71-47ea-857f-1ff671c14683/url HTTP/1.1" 200 0
+20230804 09:19:38.821 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 04 Aug 2023 01:18:21 GMT'})
+20230804 09:19:38.821 : DEBUG : Finished Request
+20230804 09:19:38.824 : DEBUG : Opened browser with session id 2e719eb7-aa71-47ea-857f-1ff671c14683.
+20230804 09:19:38.827 : DEBUG : POST http://localhost:64087/session/2e719eb7-aa71-47ea-857f-1ff671c14683/window/maximize {}
+20230804 09:19:38.856 : DEBUG : http://localhost:64087 "POST /session/2e719eb7-aa71-47ea-857f-1ff671c14683/window/maximize HTTP/1.1" 200 0
+20230804 09:19:38.857 : DEBUG : Remote response: status=200 | data={"value":{"x":-1288,"y":-8,"width":1296,"height":776}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '54', 'date': 'Fri, 04 Aug 2023 01:19:38 GMT'})
+20230804 09:19:38.858 : DEBUG : Finished Request
+20230804 09:19:38.862 : DEBUG : Closing browser with session id 2e719eb7-aa71-47ea-857f-1ff671c14683.
+20230804 09:19:38.863 : DEBUG : DELETE http://localhost:64087/session/2e719eb7-aa71-47ea-857f-1ff671c14683 {}
+20230804 09:19:49.227 : DEBUG : http://localhost:64087 "DELETE /session/2e719eb7-aa71-47ea-857f-1ff671c14683 HTTP/1.1" 200 0
+20230804 09:19:49.227 : DEBUG : Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 04 Aug 2023 01:19:38 GMT'})
+20230804 09:19:49.227 : DEBUG : Finished Request
+Ending test: WritingTestCases.Test Suite 1.TC1
+
+Starting test: WritingTestCases.Test Suite 1.TC2
+20230804 09:19:51.295 :  INFO : ${a} = Hi
+20230804 09:19:51.295 :  INFO : Hi
+20230804 09:19:51.295 :  INFO : ${b} = Yes
+20230804 09:19:51.295 :  INFO : Yes
+Ending test: WritingTestCases.Test Suite 1.TC2

@@ -1,0 +1,7 @@
+
+Starting test: WritingTestCases.Test Suite 1.TC2
+20230804 10:15:58.466 :  INFO : ${a} = Hi
+20230804 10:15:58.466 :  INFO : Hi
+20230804 10:15:58.488 :  INFO : ${b} = Yes
+20230804 10:15:58.488 :  INFO : Yes
+Ending test: WritingTestCases.Test Suite 1.TC2
